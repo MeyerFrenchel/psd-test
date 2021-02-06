@@ -43,7 +43,7 @@ font-weight: bold;
 @media only screen and (max-width:768px) {
     display: inline-flex;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 5px;
     position: relative;
     top: 10%;
 }
