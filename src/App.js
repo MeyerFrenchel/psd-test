@@ -8,7 +8,10 @@ import Banana from './assets/banana.jpg';
 import SmallBanana from './assets/small-banana.jpg';
 import Build from './assets/build.jpg';
 import SmallBuild from './assets/small-build.jpg';
+import YoutubeIcon from './assets/Group 1.png';
+import SmallYoutubeIcon from './assets/smallyoutube.png';
 import { Component } from 'react';
+
 
 class App extends Component {
 
@@ -44,8 +47,8 @@ class App extends Component {
         <Router>
         <Navbar />
         <Sidebar/>
-        <Features primaryHead={'Illustration'} lessons={24} minutes={134} imageUrl={Banana} widthSize={1345} heightSize={544} left={259} top={194}/>
-        <Features primaryHead={'Graphic Design'} lessons={30} minutes={236} imageUrl={Build} widthSize={1355} heightSize={544} left={252} top={798}/>
+        <Features primaryHead={'Illustration'} lessons={24} minutes={134} imageUrl={Banana} widthSize={1345} heightSize={544} left={259} top={194} socialIcon={YoutubeIcon}/>
+        <Features primaryHead={'Graphic Design'} lessons={30} minutes={236} imageUrl={Build} widthSize={1355} heightSize={544} left={252} top={798} socialIcon={YoutubeIcon}/>
         </Router>
           
         </div>
@@ -56,8 +59,8 @@ class App extends Component {
       <Router>
       <Navbar />
       <Sidebar/>
-      <Features primaryHead={'Illustration'} lessons={24} minutes={134} imageUrl={SmallBanana} widthSize={399} heightSize={274} left={97} top={233}/>
-      <Features primaryHead={'Graphic Design'} lessons={30} minutes={236} imageUrl={SmallBuild} widthSize={399} heightSize={274} left={97} top={571}/>
+      <Features primaryHead={'Illustration'} lessons={24} minutes={134} imageUrl={SmallBanana} widthSize={360} heightSize={225} left={92} top={233} socialIcon={SmallYoutubeIcon}/>
+      <Features primaryHead={'Graphic Design'} lessons={30} minutes={236} imageUrl={SmallBuild} widthSize={360} heightSize={225} left={92} top={571} socialIcon={SmallYoutubeIcon}/>
       </Router>
         
       </div>
