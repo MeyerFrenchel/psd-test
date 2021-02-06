@@ -33,8 +33,7 @@ border-radius: 24px 0px 0px 0px;
 
 @media only screen and (max-width: 765px) {
     .sidebar-container{
-        width: 60px;
-        top: -3px;
+        width: 40px;
     }
 
 
