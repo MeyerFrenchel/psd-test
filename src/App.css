@@ -24,6 +24,6 @@ body::-webkit-scrollbar-thumb {
 
 .App {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 100vh;
 }

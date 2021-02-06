@@ -39,15 +39,16 @@ font-weight: bold;
     left: 40%;
     bottom: 0;
 }
-
+@media only screen and (max-width:768px) {
+margin-left: 5%;
+}
 
 `
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
 @media only screen and (max-width:768px) {
-    display: block;
-    position: absolute;
+
 }
 `
 
