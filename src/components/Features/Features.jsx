@@ -1,6 +1,6 @@
 import React from 'react';
 import './Features.styles.css';
-import Group1 from '../../assets/Group 1.png';
+
 
 const Features = ({primaryHead, lessons, minutes, widthSize, heightSize, left, top, imageUrl, socialIcon}) => {
     

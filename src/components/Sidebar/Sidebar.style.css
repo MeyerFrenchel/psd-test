@@ -35,7 +35,12 @@ border-radius: 24px 0px 0px 0px;
     .sidebar-container{
         width: 40px;
     }
-
+    .sidebar-container img {
+        display: block;
+        line-height: 25px;
+        margin: 72px auto;
+        height: 30px;
+    }
 
 }
 
