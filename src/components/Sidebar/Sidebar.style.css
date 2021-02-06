@@ -1,0 +1,44 @@
+.sidebar-container{
+position: fixed;
+width: 160px;
+height: 100vh;
+left: 0px;
+top: 0px;
+
+background: #FFE4D6;
+border-radius: 24px 0px 0px 0px;
+
+
+}
+.sidebar-container img {
+    display: block;
+    line-height: 60px;
+    margin: 72px auto;
+    
+}
+.elements { 
+    position: relative;
+    top: 85px;
+}
+
+.elements a::after {
+    content:"";
+    background: #6749A5;
+    position: absolute;
+    bottom: 85%;
+    left: 0;
+    height: 15%;
+    width: 3px;
+}
+
+@media only screen and (max-width: 765px) {
+    .sidebar-container{
+        width: 80px;
+        top: -3px;
+    }
+
+
+}
+
+
+

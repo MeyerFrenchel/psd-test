@@ -1,0 +1,47 @@
+.feature {
+
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    position: absolute;
+    
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.primary-head {
+    margin-left: 42px;
+    margin-top:42px;
+}
+.secondary-head {
+    margin-right: 96px;
+    margin-top:42px;
+}
+.lessons {
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+
+color: #FFFFFF;
+}
+
+.social-icon {
+position: absolute;
+left: 2%;
+right: 5%;
+top: 79%;
+bottom: 0%;
+}
+@media screen and (max-width:768px) {
+    .feature { 
+    background-image: url("../../assets/small-banana.jpg") im !important;
+    width: 599px;
+    height: 274px;
+    left: 121px;
+    top: 233px;
+    }
+}
