@@ -1,5 +1,6 @@
 .feature {
-
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     border-radius: 24px;
     position: absolute;
@@ -47,6 +48,9 @@ bottom: 0%;
     }
     .primary-head  h2{
         font-size: 16px;
+    }
+    .primary-head {
+        margin-left: 0px;
     }
     .secondary-head {
         font-size: 16px;

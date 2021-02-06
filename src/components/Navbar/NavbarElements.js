@@ -10,7 +10,8 @@ padding: 0.5rem calc((100vh - 1000px) / 2);
 z-index: 10;
 
 @media only screen and (max-width:768px) {
-    display: inline;
+    display: block;
+    margin-top: 5%;
 }
 `
 export const NavLink = styled(Link)`
@@ -43,6 +44,8 @@ font-weight: bold;
     display: inline-flex;
     flex-wrap: wrap;
     margin-left: 20px;
+    position: relative;
+    top: 10%;
 }
 
 `
@@ -50,7 +53,7 @@ export const NavMenu = styled.div`
 display: flex;
 align-items: center;
 @media only screen and (max-width:768px) {
-
+margin-left: 60px;
 }
 `
 

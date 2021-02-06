@@ -41,6 +41,10 @@ border-radius: 24px 0px 0px 0px;
         margin: 72px auto;
         height: 30px;
     }
+    .elements a::after {
+        height: 0;
+        width: 0;
+    }
 
 }
 

@@ -22,9 +22,3 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid #F2CBBF;
 }
 
-.App {
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100vh;
-}

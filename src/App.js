@@ -59,8 +59,8 @@ class App extends Component {
       <Router>
       <Navbar />
       <Sidebar/>
-      <Features primaryHead={'Illustration'} lessons={24} minutes={134} imageUrl={SmallBanana} widthSize={360} heightSize={225} left={40} top={233} socialIcon={SmallYoutubeIcon}/>
-      <Features primaryHead={'Graphic Design'} lessons={30} minutes={236} imageUrl={SmallBuild} widthSize={360} heightSize={225} left={40} top={571} socialIcon={SmallYoutubeIcon}/>
+      <Features primaryHead={'Illustration'} lessons={24} minutes={134} imageUrl={SmallBanana} widthSize={360} heightSize={225} left={70} top={233} socialIcon={SmallYoutubeIcon}/>
+      <Features primaryHead={'Graphic Design'} lessons={30} minutes={236} imageUrl={SmallBuild} widthSize={360} heightSize={225} left={70} top={571} socialIcon={SmallYoutubeIcon}/>
       </Router>
         
       </div>
