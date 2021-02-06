@@ -40,7 +40,9 @@ font-weight: bold;
     bottom: 0;
 }
 @media only screen and (max-width:768px) {
-margin-left: 5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
 }
 
 `

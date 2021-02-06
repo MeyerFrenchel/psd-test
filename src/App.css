@@ -23,7 +23,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .App {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 100vh;
 }
