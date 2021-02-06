@@ -4,6 +4,7 @@ import { NavLink as Link } from 'react-router-dom';
 export const Nav = styled.nav`
 margin-top: 60px;
 height: 80px;
+
 display:flex;
 justify-content: space-around;
 padding: 0.5rem calc((100vh - 1000px) / 2);
@@ -12,6 +13,7 @@ z-index: 10;
 @media only screen and (max-width:768px) {
     display: block;
     margin-top: 5%;
+    width: 100%
 }
 `
 export const NavLink = styled(Link)`
@@ -43,6 +45,7 @@ font-weight: bold;
 @media only screen and (max-width:768px) {
     display: inline-flex;
     flex-wrap: wrap;
+    margin-top: 7px;
     margin-left: 5px;
     position: relative;
     top: 10%;
@@ -54,6 +57,7 @@ display: flex;
 align-items: center;
 @media only screen and (max-width:768px) {
 margin-left: 60px;
+padding:2%;
 }
 `
 
